@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+#include <stdio.h>
+int main ()
+{
+int num;
+
+printf("Enter an integer:");
+scanf("%d", &num);
+
+if (num %2 == 0)
+    printf("%d is Even\n", num);
+else
+    printf("%d is odd\n", num);
+return 0;
+}
+=======
+#include <stdio.h>
+int main ()
+{
+int num;
+
+printf("Enter an integer:");
+scanf("%d", &num);
+
+if (num %2 == 0)
+    printf("%d is Even\n", num);
+else
+    printf("%d is odd\n", num);
+return 0;
+}
+>>>>>>> 4f5c070b462ce137cdecd57f6f631aaab7589621
